@@ -32,17 +32,17 @@ namespace WpfApp1
 
         private void PageForth_Click(object sender, RoutedEventArgs e)
         {
-
+            MyFrame.Navigate(new Page4());
         }
 
         private void PageThird_Click(object sender, RoutedEventArgs e)
         {
-
+            MyFrame.Navigate(new Page3());
         }
 
         private void PageSecond_Click(object sender, RoutedEventArgs e)
         {
-
+            MyFrame.Navigate(new Page2());
         }
     }
 }
