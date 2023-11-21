@@ -16,3 +16,9 @@ C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResour
 C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page2.g.cs
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page3.g.cs
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page4.g.cs
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page2.baml
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page3.baml
+C:\Naumov\Naumov_225_PR1\WpfApp1\WpfApp1\obj\Debug\Page4.baml

@@ -55,7 +55,7 @@ namespace WpfApp1
             {
                 MessageBox.Show("На ноль делить");
             }
-            TextAnswer.Text += $"Соложение: {total}\nПроизведение: {product}\nВычитание: {different}\nЧастное: {chast:f3}";
+            TextAnswer.Text += $"Сложение: {total}\nПроизведение: {product}\nВычитание: {different}\nЧастное: {chast:f3}";
         }
     }
 }

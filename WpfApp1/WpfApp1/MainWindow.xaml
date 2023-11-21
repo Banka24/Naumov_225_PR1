@@ -17,6 +17,6 @@
             <Button Name="PageThird" Content="Задание 3" Click="PageThird_Click"/>
             <Button Name="PageForth" Content="Задание 4" Click="PageForth_Click"/>
         </StackPanel>
-        <Frame Name="MyFrame" Grid.Row="1"/>
+        <Frame Name="MyFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>
