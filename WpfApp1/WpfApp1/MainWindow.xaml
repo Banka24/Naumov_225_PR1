@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="600" Width="600" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="PageFirst" Content="Задание 1" Click="PageFirst_Click"/>
+            <Button Name="PageSecond" Content="Задание 2" Click="PageSecond_Click"/>
+            <Button Name="PageThird" Content="Задание 3" Click="PageThird_Click"/>
+            <Button Name="PageForth" Content="Задание 4" Click="PageForth_Click"/>
+            <Button Name="PageFifth" Content="Задание *" Click="PageFifth_Click"/>
+        </StackPanel>
+        <Frame Name="MyFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>

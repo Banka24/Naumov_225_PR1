@@ -24,5 +24,30 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void PageFirst_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page1());
+        }
+
+        private void PageSecond_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page2());
+        }
+
+        private void PageThird_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page3());
+        }
+
+        private void PageForth_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page4());
+        }
+
+        private void PageFifth_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page5());
+        }
     }
 }
