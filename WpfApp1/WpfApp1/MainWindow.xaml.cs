@@ -30,9 +30,9 @@ namespace WpfApp1
             MyFrame.Navigate(new Page1());
         }
 
-        private void PageForth_Click(object sender, RoutedEventArgs e)
+        private void PageSecond_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new Page4());
+            MyFrame.Navigate(new Page2());
         }
 
         private void PageThird_Click(object sender, RoutedEventArgs e)
@@ -40,9 +40,14 @@ namespace WpfApp1
             MyFrame.Navigate(new Page3());
         }
 
-        private void PageSecond_Click(object sender, RoutedEventArgs e)
+        private void PageForth_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new Page2());
+            MyFrame.Navigate(new Page4());
+        }
+
+        private void PageFifth_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new Page5());
         }
     }
 }
