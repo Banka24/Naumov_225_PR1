@@ -55,6 +55,6 @@
             <TextBlock Text="Результаты"/>
             <TextBox Name="TextAnswer" IsReadOnly="True" VerticalScrollBarVisibility="Visible" Height="80"/>
         </StackPanel>
-        <Button Name="CompliteButton" Grid.Row="4" Grid.ColumnSpan="2" Content="Выполнить" Click="CompliteButton_Click"/>
+        <Button Name="CompliteButton" Grid.Row="4" Grid.ColumnSpan="2" Content="Выполнить" Click="CompliteButton_Click" Style="{StaticResource ButtonAlert}"/>
     </Grid>
 </Page>
