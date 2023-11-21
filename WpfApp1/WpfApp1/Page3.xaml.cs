@@ -36,7 +36,7 @@ namespace WpfApp1
 
             double c = (f - 32) * 5 / 9;
 
-            TextAnswer.Text += $"Температура в С: {c:f2}";
+            TextAnswer.Text += $"Температура в С: {c:f3}";
         }
     }
 }

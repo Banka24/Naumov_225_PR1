@@ -39,7 +39,7 @@ namespace WpfApp1
             z = (n + Cos(n + 1) / Sin(n + 1)) / Sin(n + 1);
             c = Abs((n + Pow(z, 5)) / (3 + z));
 
-            TextAnswer.Text += $"C = {c}";
+            TextAnswer.Text += $"C = {c:f3}";
         }
     }
 }
