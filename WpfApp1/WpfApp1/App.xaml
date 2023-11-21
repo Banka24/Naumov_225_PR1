@@ -4,17 +4,30 @@
              xmlns:local="clr-namespace:WpfApp1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="16, 0"/>
-            <Setter Property="Height" Value="30"/>
+        
+        <Style TargetType="Button" x:Key="ButtonAlert">
+            <Setter Property="Margin" Value="16"/>
+            <Setter Property="Height" Value="42"/>
+            <Setter Property="Padding" Value="12"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#fff6a5"/>
         </Style>
+
         <Style TargetType="TextBlock">
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="5"/>
-        </Style>
+            <Setter Property="Margin" Value="16, 0"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="Foreground" Value="#243238"/>
+            <Setter Property="FontSize" Value="12"/>            
+        </Style>       
+        
         <Style TargetType="TextBox">
             <Setter Property="Margin" Value="16"/>
+            <Setter Property="Height" Value="32"/>
         </Style>
+        
     </Application.Resources>
 </Application>

@@ -60,7 +60,7 @@ namespace WpfApp1
             d = a1 * b2 - a2 * b1;
             x = (c1 * b2 - c2 * b1) / d;
             y = (a1 * c2 - a2 * c1) / d;
-            TextAnswer.Text += $"X = {x:f3}\nY = {y:f3}";
+            TextAnswer.Text += $"X = {x}\nY = {y}";
         }
     }
 }
