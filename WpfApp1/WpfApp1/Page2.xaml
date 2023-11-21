@@ -19,8 +19,8 @@
             <RowDefinition/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="1-ое число"/>
-        <TextBlock Grid.Row="1" Text="2-ое число"/>
+        <TextBlock Text="Число А"/>
+        <TextBlock Grid.Row="1" Text="Число В"/>
         <TextBox Grid.Column="1" Name="NumberATextBox"  Height="42"/>
         <TextBox Grid.Column="1" Name="NumberBTextBox" Grid.Row="1" Height="42"/>
         <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
