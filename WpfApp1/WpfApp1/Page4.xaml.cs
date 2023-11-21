@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Math;
 
 namespace WpfApp1
 {
@@ -23,6 +24,22 @@ namespace WpfApp1
         public Page4()
         {
             InitializeComponent();
+        }
+
+        private void CompliteButton_Click(object sender, RoutedEventArgs e)
+        {
+            double n, c, z;
+            TextAnswer.Clear();
+
+            if (!double.TryParse(NumberNTextBox.Text, out n))
+            {
+                MessageBox.Show("Число F - только число");
+            }
+
+            z = (n + Cos(n + 1) / Sin(n + 1)) / Sin(n + 1);
+            c = Abs((n + Pow(z, 5)) / (3 + z));
+
+            TextAnswer.Text += $"C = {c}";
         }
     }
 }
