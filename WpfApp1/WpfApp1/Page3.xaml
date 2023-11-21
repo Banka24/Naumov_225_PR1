@@ -9,6 +9,21 @@
       Title="Page3">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Граусы в F"/>
+        <TextBox Grid.Column="1" Name="NumberFTextBox"  Height="42"/>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+            <TextBlock Text="Результаты"/>
+            <TextBox Name="TextAnswer" IsReadOnly="True" VerticalScrollBarVisibility="Visible" Height="80"/>
+        </StackPanel>
+        <Button Name="CompliteButton" Grid.Row="2" Grid.ColumnSpan="2" Content="Выполнить" Click="CompliteButton_Click"/>
     </Grid>
 </Page>

@@ -24,5 +24,19 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void CompliteButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextAnswer.Clear();
+
+            if (!double.TryParse(NumberFTextBox.Text, out double f))
+            {
+                MessageBox.Show("Число F - только число");
+            }
+
+            double c = (f - 32) * 5 / 9;
+
+            TextAnswer.Text += $"Температура в С: {c:f2}";
+        }
     }
 }
